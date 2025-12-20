@@ -283,7 +283,7 @@ Please let me know about availability and booking details. Thank you!`;
 
 <div className="w-full max-w-6xl mx-auto">
   <video
-    src="/reels/training-1.mp4"
+    src="https://res.cloudinary.com/duhadnqmh/video/upload/v1766266104/training-1_juqcgj.mp4"
     autoPlay
     muted
     loop
@@ -292,6 +292,7 @@ Please let me know about availability and booking details. Thank you!`;
     className="w-full h-auto rounded-xl"
   />
 </div>
+
 
 
 
