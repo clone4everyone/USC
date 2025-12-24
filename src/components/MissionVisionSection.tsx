@@ -20,7 +20,7 @@ const MissionVisionSection = () => {
           <div className="relative group animate-scale-in">
             <div className="overflow-hidden rounded-3xl shadow-2xl">
               <img
-                src={missionImage}
+                src='https://res.cloudinary.com/duhadnqmh/image/upload/v1766568599/Screenshot_2025-12-24_145842_qwlzhc.png'
                 alt="Our mission"
                 className="w-full h-[600px] object-cover transition-transform duration-700 group-hover:scale-105"
               />

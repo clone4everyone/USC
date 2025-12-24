@@ -253,7 +253,7 @@ export const fetchGoogleCalendarEvents = async (calendarId: string): Promise<Goo
     }
     
     // Use the exact working URL the user provided (hardcoded for reliability)
-    const workingUrl = 'https://calendar.google.com/calendar/ical/classroom115807423677492622322%40group.calendar.google.com/public/basic.ics';
+    const workingUrl = 'https://calendar.google.com/calendar/ical/163ea83353e9f5cb481f7f948b945bdbf2ec98304940bd22038bb77d3546146b%40group.calendar.google.com/public/basic.ics';
     
     let icalData: string | null = null;
     let lastError: Error | null = null;

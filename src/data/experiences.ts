@@ -45,8 +45,8 @@ export const experiences: Experience[] = [
     category: "Adventure",
     description: "Thrilling water sports adventures including rafting, kayaking, and more on the pristine waters.",
     image: experienceImages[8],
-    fullDescription: "Experience the ultimate water sports adventure. Navigate through exciting rapids, enjoy kayaking sessions, and participate in various water-based activities. Our certified guides ensure safety while you enjoy the thrill of water sports in beautiful natural settings.",
-    duration: "2-3 Days",
+    fullDescription: "A professionally supervised water sports experience focused on building confidence, teamwork, and physical awareness through safe, guided water-based activities. Designed to help participants overcome fear, strengthen resilience, and develop trust in a controlled natural setting.",
+    duration: "3 Nights - 4 Days",
     price: "Starting from ₹6,500",
     includes: [
       "All water sports equipment and safety gear",
@@ -57,7 +57,8 @@ export const experiences: Experience[] = [
     ],
     highlights: [
       "White-water rafting",
-      "Kayaking sessions",
+      "Rock Climbing",
+      "River Crossing",
       "Professional safety standards",
       "Beautiful river scenery",
       "Experienced guides"
@@ -71,8 +72,8 @@ export const experiences: Experience[] = [
     description: "Scenic day hike to Kakar Ludi, offering breathtaking views and a perfect introduction to mountain trekking.",
     image: experienceImages[0],
     fullDescription: "Embark on a beautiful day hike to Kakar Ludi, a scenic destination perfect for beginners and experienced hikers alike. Enjoy stunning mountain vistas, diverse flora and fauna, and the satisfaction of reaching a beautiful summit. This day hike is ideal for those looking to experience the mountains without committing to a multi-day trek.",
-    duration: "1 Day",
-    price: "Starting from ₹2,500",
+    duration: "3 Nights - 4 Days",
+        price: "Starting from ₹2,500",
     includes: [
       "Experienced trekking guide",
       "Basic trekking equipment",
@@ -96,8 +97,8 @@ export const experiences: Experience[] = [
     description: "Challenging day hike to Kala Bhuu, featuring diverse terrain and spectacular panoramic views.",
     image: experienceImages[1],
     fullDescription: "Challenge yourself with a day hike to Kala Bhuu, known for its diverse terrain and spectacular views. This moderately challenging hike takes you through forests, meadows, and rocky sections, offering a complete mountain experience in a single day.",
-    duration: "1 Day",
-    price: "Starting from ₹2,800",
+    duration: "3 Nights - 4 Days",
+      price: "Starting from ₹2,800",
     includes: [
       "Experienced trekking guide",
       "Trekking poles and basic equipment",
@@ -121,8 +122,8 @@ export const experiences: Experience[] = [
     description: "Explore the historic Raj Mahal trail, combining natural beauty with cultural significance.",
     image: experienceImages[2],
     fullDescription: "Discover the historic Raj Mahal trail, where natural beauty meets cultural heritage. This day hike offers a unique combination of scenic mountain views and insights into local history, making it a perfect choice for those interested in both nature and culture.",
-    duration: "1 Day",
-    price: "Starting from ₹2,500",
+    duration: "3 Nights - 4 Days",
+       price: "Starting from ₹2,500",
     includes: [
       "Experienced guide with local knowledge",
       "Trekking equipment",
@@ -146,8 +147,8 @@ export const experiences: Experience[] = [
     description: "Peaceful riverside hike along the Beas River, perfect for nature lovers and photography enthusiasts.",
     image: experienceImages[3],
     fullDescription: "Enjoy a peaceful and scenic hike along the beautiful Beas River. This gentle day hike is perfect for nature lovers, families, and photography enthusiasts. Follow the river's course through lush landscapes, spot local wildlife, and enjoy the soothing sounds of flowing water.",
-    duration: "1 Day",
-    price: "Starting from ₹2,200",
+    duration: "3 Nights - 4 Days",
+        price: "Starting from ₹2,200",
     includes: [
       "Experienced nature guide",
       "Basic equipment",
@@ -171,7 +172,7 @@ export const experiences: Experience[] = [
     description: "Thrilling water sports and local adventure activities for adrenaline seekers.",
     image: experienceImages[8],
     fullDescription: "Get your adrenaline pumping with White-water rafting in river bias, Rock Climbing, River Crossing, Rappling, Zippling, Obstacle, Cliff jumping, and other exciting water sports. This adventure package combines thrilling activities with local cultural experiences, making it perfect for adventure enthusiasts looking for both excitement and cultural immersion.",
-    duration: "3-4 Days",
+    duration: "3 Nights - 4 Days",
     price: "Starting from ₹7,500",
     includes: [
       "All safety equipment and gear",
@@ -197,9 +198,9 @@ export const experiences: Experience[] = [
     category: "Survival",
     description: "Intensive survival training program led by ex-Army Officers, designed for those seeking advanced wilderness skills and mental toughness.",
     image: experienceImages[4],
-    fullDescription: "Develop elite-level survival skills through rigorous training designed and led by former military personnel. Learn advanced navigation, emergency shelter construction, fire-making in adverse conditions, water sourcing and purification, and mental resilience techniques used by special forces. This comprehensive program prepares you for any survival situation.",
+    fullDescription: "The Military Survival Training Camp is a structured outdoor learning program led by experienced ex-Army professionals, designed to build discipline, resilience, leadership, and teamwork in a safe, controlled environment. Through military-inspired activities such as obstacle training, navigation, survival skills, and team challenges, participants develop confidence, decision-making ability, and mental strength. The camp emphasizes character building, responsibility, and self-awareness—helping participants return more disciplined, focused, and prepared for real-life challenges.",
     duration: "3 Nights - 4 Days",
-    price: "Starting from ₹20,000",
+    price: "Starting from ₹20,000 for adults and ₹17500 for Students",
     includes: [
       "Tactical training equipment",
       "Meals and rations",
@@ -221,13 +222,13 @@ export const experiences: Experience[] = [
   {
     id: "sustainable-farming-workshop",
     icon: TreePine,
-    title: "Permaculture & Sustainable Farming Workshops",
+    title: "Ancestral Agro-Forested Retreat",
     category: "Homesteading",
     description: "Learn sustainable farming techniques and permaculture principles to create self-sustaining ecosystems.",
     image: experienceImages[5],
     fullDescription: "A comprehensive workshop on sustainable agriculture and permaculture design. Learn to create self-sustaining food systems, understand soil health, water management, and integrate permaculture principles into your own farming or gardening practices. Perfect for those interested in sustainable living and food security.",
-    duration: "5-7 Days",
-    price: "Starting from ₹10,000",
+    duration: "3 Nights - 4 Days",
+    price: "",
     includes: [
       "Accommodation and meals",
       "Workshop materials and tools",
@@ -253,7 +254,7 @@ export const experiences: Experience[] = [
     description: "An empowering camp designed for children ages 8-16 to build confidence, teamwork, and outdoor skills.",
     image: experienceImages[0],
     fullDescription: "Brave Heart Kids Camp is a comprehensive outdoor education program designed to empower children ages 8-16 through adventure and learning. Our carefully structured activities combine wilderness skills, team-building exercises, and environmental education to create a transformative experience for young minds. All activities are age-appropriate and supervised by certified instructors.",
-    duration: "3-5 Days",
+    duration: "3 Nights - 4 Days",
     price: "Starting from ₹3,500",
     includes: [
       "Accommodation in safe, supervised camp setting",
@@ -280,7 +281,7 @@ export const experiences: Experience[] = [
     description: "A transformative experience for young adults ages 14-22 to explore their potential, build resilience, and discover their inner strength.",
     image: experienceImages[1],
     fullDescription: "The Self-Discovery Retreat is designed for young adults ages 14-22 transitioning to higher education or early career stages. Through meditation, reflective exercises, and outdoor challenges, participants gain clarity about their goals, build emotional resilience, and develop essential life skills for personal and academic success.",
-    duration: "5-7 Days",
+    duration: "3 Nights - 4 Days",
     price: "Starting from ₹8,500",
     includes: [
       "Lodging in comfortable retreat setting",
@@ -308,7 +309,7 @@ export const experiences: Experience[] = [
     description: "A comprehensive wellness experience featuring yoga, hot baths, sauna, ice baths, and therapeutic massage.",
     image: experienceImages[2],
     fullDescription: "Indulge in a complete wellness experience designed to rejuvenate your body, mind, and spirit. Our curated retreat includes daily yoga sessions, therapeutic hot baths, traditional sauna experiences, invigorating ice baths, and professional massage therapy. This holistic approach to wellness helps you relax, recover, and restore your natural balance.",
-    duration: "4-7 Days",
+    duration: "3 Nights - 4 Days",
     price: "Starting from ₹12,000",
     includes: [
       "Comfortable wellness accommodations",
@@ -336,8 +337,8 @@ export const experiences: Experience[] = [
     category: "Wellness",
     description: "Experience sustainable farming practices while detoxifying your body and mind through farm-to-table living.",
     image: experienceImages[3],
-    fullDescription: "Reconnect with the earth through hands-on farming experience. Learn permaculture principles, participate in organic farming, and enjoy fresh, chemical-free meals prepared from what you harvest. This retreat combines physical activity, healthy eating, and mindfulness practices for complete wellness.",
-    duration: "7-10 Days",
+    fullDescription: "The Farm Detox Retreat is a slow-living, nature-immersive experience designed to help participants disconnect from digital overload and reconnect with natural rhythms of life. Through mindful farming activities, simple living practices, and guided presence-based sessions, participants learn the value of patience, awareness, and conscious living. The retreat focuses on mental clarity, emotional balance, and sustainable lifestyle understanding in a calm, grounded farm environment.",
+    duration: "3 Nights - 4 Days",
     price: "Starting from ₹15,000",
     includes: [
       "Farm stay accommodations",
@@ -347,11 +348,11 @@ export const experiences: Experience[] = [
       "Nature walks and farm tours"
     ],
     highlights: [
-      "Learn sustainable farming techniques",
-      "Hands-on permaculture training",
-      "Chemical-free, organic produce",
-      "Physical detox through natural activities",
-      "Mindful eating practices"
+      "Nature-based digital detox experience",
+      "Mindfulness through daily farm life and meditation",
+      "Hands-on farming and conscious living practices",
+      "Mental clarity, emotional balance, and self-awareness",
+      "Calm, distraction-free environment for reset and reflection"
     ]
   },
   
@@ -366,7 +367,7 @@ export const experiences: Experience[] = [
     description: "Experience a complete digital detox in a homestay setting, reconnecting with yourself, nature, and meaningful human connections.",
     image: experienceImages[6],
     fullDescription: "Step away from the digital world and reconnect with what truly matters. Our Digital Detox Homestay experience offers a peaceful retreat where you can disconnect from technology and reconnect with yourself, nature, and meaningful human connections. Enjoy simple living, authentic local experiences, and the tranquility of being present in the moment.",
-    duration: "3-10 Days",
+    duration: "3 Nights - 4 Days",
     price: "Starting from ₹4,500",
     includes: [
       "Comfortable homestay accommodations",
@@ -397,7 +398,7 @@ export const experiences: Experience[] = [
     description: "Design a personalized experience tailored to your group's interests, needs, and preferences.",
     image: experienceImages[9],
     fullDescription: "Create a unique experience that's perfectly tailored to your group. Whether it's a corporate retreat, family gathering, educational program, or special celebration, we'll work with you to design an experience that meets your specific needs, interests, and goals.",
-    duration: "Customizable",
+    duration: "3 Nights - 4 Days",
     price: "Custom pricing based on requirements",
     includes: [
       "Customized itinerary planning",

@@ -178,7 +178,8 @@ const defaultEvents: Event[] = [
 ];
 
 // Google Calendar ID - using the decoded calendar ID from the public iCal URL
-const GOOGLE_CALENDAR_ID = 'classroom115807423677492622322@group.calendar.google.com';
+const GOOGLE_CALENDAR_ID = '163ea83353e9f5cb481f7f948b945bdbf2ec98304940bd22038bb77d3546146b@group.calendar.google.com';
+// const GOOGLE_CALENDAR_ID = 'classroom1234567890@group.calendar.google.com';
 
 const Events = () => {
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date());

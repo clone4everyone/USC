@@ -15,7 +15,13 @@ import { useEffect, useRef } from "react";
 
 const About = () => {
   const sectionsRef = useRef<(HTMLDivElement | null)[]>([]);
-
+const staffImages=[
+  'https://res.cloudinary.com/duhadnqmh/image/upload/v1766566778/Screenshot_103_tkal8p.png', 
+  'https://res.cloudinary.com/duhadnqmh/image/upload/v1766566778/Screenshot_104_j7ukty.png', 
+  'https://res.cloudinary.com/duhadnqmh/image/upload/v1766566777/Screenshot_105_h0wnga.png',
+  'https://res.cloudinary.com/duhadnqmh/image/upload/v1766566773/Screenshot_2025-12-24_142712_ezcleh.png',
+ 'https://res.cloudinary.com/duhadnqmh/image/upload/v1766566772/Screenshot_2025-12-24_142616_umjlfh.png'
+]
   useEffect(() => {
     const observerOptions = {
       threshold: 0.2,
@@ -135,21 +141,21 @@ They come to face it — and leave stronger.
       <section className="py-24 bg-secondary/30 relative z-10">
         <div className="container px-6">
           <div ref={addToRefs} className="opacity-0">
-            <div className="text-center mb-16">
+            {/* <div className="text-center mb-16">
               <p className="text-lg text-muted-foreground mb-4">
                 Discover the <span className="font-bold text-foreground">principles</span> guiding us
               </p>
               <h2 className="text-4xl md:text-5xl font-bold">
                 toward a <span className="text-primary">stronger future</span>
               </h2>
-            </div>
+            </div> */}
 
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {/* Image */}
               <div className="relative group">
                 <div className="overflow-hidden rounded-3xl shadow-2xl">
                   <img
-                    src={missionImage}
+                    src='https://res.cloudinary.com/duhadnqmh/image/upload/v1766568599/Screenshot_2025-12-24_145842_qwlzhc.png'
                     alt="Our mission"
                     className="w-full h-[600px] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -312,10 +318,71 @@ They come to face it — and leave stronger.
                 </div>
               ))}
             </div>
+
+            {/* Camp Staff Section */}
+
+
           </div>
+          
         </div>
       </section>
+<div className="mt-24">
+  {/* Header */}
+  <div className="text-center mb-14 max-w-2xl mx-auto">
+    <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-accent/10 border border-accent/20 mb-6 backdrop-blur-sm">
+      <Users className="text-accent" size={20} />
+      <span className="text-sm font-semibold text-accent">Our Camp Staff</span>
+    </div>
 
+    <h3 className="text-3xl md:text-4xl font-bold mb-4">
+      The <span className="text-primary">Backbone</span> of Our Camps
+    </h3>
+
+    <p className="text-lg text-muted-foreground leading-relaxed">
+      Trained, disciplined, and deeply connected to the land — our camp staff
+      ensures every experience runs smoothly, safely, and with heart.
+    </p>
+  </div>
+
+  {/* Staff Grid */}
+  <div className="grid grid-cols-1 pb-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 max-w-7xl mx-auto">
+    {[
+      { name: "Rahul", role: "Camp Operations" },
+      { name: "Terloki Devi", role: "Outdoor Instructor" },
+      { name: "Seema", role: "Survival Assistant" },
+      { name: "Sahil Heer", role: "Logistics & Support" },
+      { name: "Nitish Kumar", role: "Activity Coordinator" },
+    ].map((staff, index) => (
+      <div
+        key={index}
+        className="group bg-card rounded-3xl overflow-hidden border border-border/50 shadow-lg hover:shadow-2xl transition-all duration-500"
+      >
+        {/* Image */}
+        <div className="relative h-64 overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
+          <img
+            src={staffImages[index]}
+            alt={staff.name}
+            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            loading="lazy"
+          />
+        </div>
+
+        {/* Content */}
+        <div className="p-5 text-center">
+          <h4 className="text-lg font-bold mb-1 group-hover:text-primary transition-colors">
+            {staff.name}
+          </h4>
+          {/* <p className="text-sm font-semibold text-muted-foreground">
+            {staff.role}
+          </p> */}
+        </div>
+
+        {/* Hover Border */}
+        <div className="absolute inset-0 rounded-3xl border-2 border-primary/0 group-hover:border-primary/30 transition-all duration-500 pointer-events-none" />
+      </div>
+    ))}
+  </div>
+</div>
       {/* Stats Section */}
       <section className="py-24 relative z-10 overflow-hidden bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5">        
         {/* Decorative elements */}
